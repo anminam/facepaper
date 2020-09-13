@@ -1,0 +1,29 @@
+@import "../const";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $header-height;
+  background-color: $header-background-color;
+  padding: 0 16px;
+
+  > div,
+  ul {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+  }
+  &__naming {
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    display: block;
+  }
+}

@@ -1,2 +1,9 @@
 @import "reset";
 @import "logo";
+@import "color";
+
+@import "Components/index.scss";
+
+body {
+  background: $all-background-color;
+}
