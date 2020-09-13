@@ -57,17 +57,17 @@ const Header = () => {
             </div>
           </li>
           <li className="header__options__option">
-            <div className="">
+            <div className="icon-circle-contaner">
               <MessageIcon />
             </div>
           </li>
           <li className="header__options__option">
-            <div className="">
+            <div className="icon-circle-contaner">
               <AlarmIcon />
             </div>
           </li>
           <li className="header__options__option">
-            <div className="">
+            <div className="icon-circle-contaner">
               <SettingsIcon />
             </div>
           </li>

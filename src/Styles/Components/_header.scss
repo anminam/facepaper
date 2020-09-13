@@ -23,7 +23,34 @@
     align-items: center;
   }
 
-  svg {
-    display: block;
+  &__options {
+    &__option {
+      cursor: pointer;
+      &:hover {
+        opacity: 0.6;
+      }
+
+      svg {
+        display: block;
+      }
+    }
+  }
+
+  &__options__option + &__options__option {
+    margin-left: 10px;
+  }
+
+  .icon-circle-contaner {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e6eb;
+    border-radius: 40px;
+    cursor: pointer;
+    svg {
+      font-size: 1rem;
+    }
   }
 }
